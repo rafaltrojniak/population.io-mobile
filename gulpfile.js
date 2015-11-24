@@ -300,7 +300,8 @@ gulp.task('upload', function () {
   ])
   .pipe(sftp({
     host: '162.209.106.29',
-    auth: 'keyMain',
+    user: 'populationio_mobile',
+    key: './id_rsa',
     remotePath: '/html/'
   }));
 });

@@ -5,3 +5,4 @@ bower_components/
 .DS_Store
 .ftppass
 config.json
+secrets.tar.gz
