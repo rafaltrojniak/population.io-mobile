@@ -3,6 +3,7 @@ node_js:
 - 0.10.40
 before_script:
 - npm install -g gulp
+- bower install
 script: gulp deploy
 before_install:
 - openssl aes-256-cbc -K $encrypted_29d4e76ebd60_key -iv $encrypted_29d4e76ebd60_iv
